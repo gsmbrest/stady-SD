@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1400px;
+    padding: 125px;
+    background: #FFF;
+}
+
+h1 {
+    width: 956px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    color: #121212;
+
+}
+
+.interior {
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding-top: 379px;
+    padding-left: 40px;
+    height: 500px;
+    width: 1150px;
+    background-image: url(../resources/foto-1.png);
+    background-repeat: no-repeat;
+
+}
+
+.image_text {
+    width: 430px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #FFF;
+
+}
+
+h2 {
+    margin-top: 150px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.about_info {
+    margin-top: 30px;
+    width: 1048px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+    color: #121212;
+}
+
+.btn {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #AD1818;
+    color: #FFFFFF;
+}
