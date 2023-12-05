@@ -1,8 +1,6 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    width: 100%;
-    background: #F5F5F5;
 }
 
 .container {
@@ -10,7 +8,6 @@ body {
     margin: 0 auto;
     width: 1400px;
     padding: 125px;
-    background: #FFF;
 }
 
 h1 {
@@ -20,8 +17,6 @@ h1 {
     font-weight: 400;
     line-height: 60px;
     letter-spacing: -1.8px;
-    color: #121212;
-
 }
 
 .interior {
@@ -43,7 +38,7 @@ h1 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.6px;
-    color: #FFF;
+    color: white;
 
 }
 
@@ -55,7 +50,6 @@ h2 {
     line-height: normal;
     letter-spacing: -0.54px;
     text-transform: uppercase;
-    color: #121212;
 }
 
 .about_info {
@@ -66,7 +60,6 @@ h2 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -1.35px;
-    color: #121212;
 }
 
 .btn {
