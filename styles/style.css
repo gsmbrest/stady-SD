@@ -4,6 +4,30 @@ body {
     background: #F5F5F5;
 }
 
+section {
+    padding: 150px 125px opx 125px;
+}
+
+.section-title {
+    padding-top: 150px;
+}
+
+.section-long {
+    padding-bottom:  150px;
+}
+
+.section-black {
+    background-color: #121212;
+}
+
+.section-black h2 {
+    color: #FFF;
+}
+
+.section-black-item {
+    color: #FFF;
+}
+
 .container {
     box-sizing: border-box;
     margin: 0 auto;
@@ -12,21 +36,10 @@ body {
     background: #FFF;
 }
 
-h1 {
-    width: 956px;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 60px;
-    letter-spacing: -1.8px;
-    color: #121212;
-}
-
 .interior {
+    position: relative;
     box-sizing: border-box;
     margin-top: 30px;
-    padding-top: 379px;
-    padding-left: 40px;
     height: 500px;
     width: 1150px;
     background-image: url(../resources/foto-1.png);
@@ -34,7 +47,10 @@ h1 {
 
 }
 
-.image_text {
+.image__text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
     width: 430px;
     font-size: 20px;
     font-style: normal;
@@ -45,18 +61,38 @@ h1 {
 
 }
 
+h1,
+h2,
+h3 {
+    letter-spacing: -0.03em;
+}
+
+h1 {
+    width: 956px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    color: #121212;
+}
+
 h2 {
     margin-top: 150px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.54px;
+    
     text-transform: uppercase;
     color: #121212;
 }
 
-.about_info {
+h3 {
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #121212;
+}
+
+.about__info {
     margin-top: 30px;
     width: 1048px;
     font-size: 45px;
@@ -78,4 +114,66 @@ h2 {
     text-decoration: none;
     background: #AD1818;
     color: #FFFFFF;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects .project {
+    margin-top: 90px;
+}
+
+.projects :first-child {
+    margin-top: 0px;
+}
+
+.project__image {
+    margin-bottom: 15px;
+}
+
+.project__title {
+    margin-bottom: 15px;
+}
+
+.project__link {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #AD1818;
+    text-decoration: none;
+}
+
+.btnCheckProjects {
+    margin-top: 90px;
+    display: block;
+    width: 100%;
+    height: 153px;
+    line-height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #AD1818;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+}
+
+.btnCheckProjects:hover {
+    background-color: #AD1818;
+    color: #FFF;
+}
+
+.services {
+   margin-top: 34px;
+}
+
+.services .service {
+    margin-top: 60px;
+}
+
+.service__image {
+    margin-bottom: 15px;
 }
