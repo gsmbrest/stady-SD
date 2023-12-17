@@ -149,7 +149,7 @@ h3 {
     text-decoration: none;
 }
 
-.btnCheckProjects {
+.project__button {
     margin-top: 90px;
     margin-bottom: 150px;
     display: block;
@@ -165,7 +165,7 @@ h3 {
     letter-spacing: -0.9px;
 }
 
-.btnCheckProjects:hover {
+.project__button:hover {
     background-color: #AD1818;
     color: #FFF;
 }
