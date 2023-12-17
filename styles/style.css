@@ -4,29 +4,14 @@ body {
     background: #FFF;
 }
 
-.background__box {
-    background-color: black;
-    width: 1400px;
-    height: 1844px;
-}
-
-.background__box-title {
-    padding-top: 150px;
-    padding-left: 127px;
-    margin: auto;
-    color: #FFF
-}
-
-.service__item {
-    color: #FFF;
-    padding-left: 128px;
+.container {
+    margin: 0 auto;
+    padding: 0 15px; 
+    max-width: 1180px;
 }
 
 .hero {
-    margin: 0 auto;
     margin-top: 130px;
-    padding: 0 15px; 
-    max-width: 1180px;
 }
 
 .hero__image {
@@ -34,7 +19,7 @@ body {
     box-sizing: border-box;
     margin-top: 30px;
     height: 500px;
-    width: 1150px;
+    width: 1180px;
     background-image: url(../resources/foto-1.png);
     background-repeat: no-repeat;
 
@@ -81,12 +66,6 @@ h3 {
     letter-spacing: -0.9px;
 }
 
-.about {
-    margin: 0 auto;
-    padding: 0 15px; 
-    max-width: 1180px;
-}
-
 .about__info {
     margin-top: 30px;
     width: 1048px;
@@ -111,12 +90,6 @@ h3 {
     cursor: pointer;
     border: none;
     outline: none;
-}
-
-.projects__box {
-    margin: 0 auto;
-    padding: 0 15px; 
-    max-width: 1180px;
 }
 
 .projects {
@@ -153,7 +126,7 @@ h3 {
     margin-top: 90px;
     margin-bottom: 150px;
     display: block;
-    width: 100%;
+    width: 1150px !important;
     height: 153px;
     line-height: 153px;
     border: 1px solid #AD1818;
@@ -170,12 +143,30 @@ h3 {
     color: #FFF;
 }
 
+.background__box {
+    background-color: black;
+    width: 1400px;
+    height: 1844px;
+}
+
+.background__box-title {
+    padding-top: 150px;
+    padding-left: 127px;
+    margin: auto;
+    color: #FFF
+}
+
 .services {
     margin-top: 34px;
 }
 
 .services .service {
     margin-top: 60px;
+}
+
+.service__item {
+    color: #FFF;
+    padding-left: 128px;
 }
 
 .service__image {
@@ -197,7 +188,7 @@ h3 {
     left: 125px;
     bottom: 60px;
     width: 443px;
-    font-size: 30px;  
+    font-size: 30px;
     line-height: normal;
     letter-spacing: -0.9px;
     color: #FFF;
