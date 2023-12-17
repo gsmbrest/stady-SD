@@ -1,42 +1,35 @@
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%;
-    background: #F5F5F5;
-}
-
-section {
-    padding: 150px 125px opx 125px;
-}
-
-.section-title {
-    padding-top: 150px;
-}
-
-.section-long {
-    padding-bottom:  150px;
-}
-
-.section-black {
-    background-color: #121212;
-}
-
-.section-black h2 {
-    color: #FFF;
-}
-
-.section-black-item {
-    color: #FFF;
-}
-
-.container {
-    box-sizing: border-box;
-    margin: 0 auto;
-    width: 1400px;
-    padding: 125px;
     background: #FFF;
 }
 
-.interior {
+.background__box {
+    background-color: black;
+    width: 1400px;
+    height: 1844px;
+}
+
+.background__box-title {
+    padding-top: 150px;
+    padding-left: 127px;
+    margin: auto;
+    color: #FFF
+}
+
+.service__item {
+    color: #FFF;
+    padding-left: 128px;
+}
+
+.hero {
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0 15px; 
+    max-width: 1180px;
+}
+
+.hero__image {
     position: relative;
     box-sizing: border-box;
     margin-top: 30px;
@@ -47,7 +40,7 @@ section {
 
 }
 
-.image__text {
+.hero__image-text {
     position: absolute;
     left: 40px;
     bottom: 40px;
@@ -61,12 +54,6 @@ section {
 
 }
 
-h1,
-h2,
-h3 {
-    letter-spacing: -0.03em;
-}
-
 h1 {
     width: 956px;
     font-size: 60px;
@@ -74,6 +61,7 @@ h1 {
     font-weight: 400;
     line-height: 60px;
     color: #121212;
+    letter-spacing: -1.8px;
 }
 
 h2 {
@@ -81,7 +69,7 @@ h2 {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    
+    letter-spacing: -0.54px;
     text-transform: uppercase;
     color: #121212;
 }
@@ -90,6 +78,13 @@ h3 {
     font-size: 30px;
     line-height: 40.98px;
     color: #121212;
+    letter-spacing: -0.9px;
+}
+
+.about {
+    margin: 0 auto;
+    padding: 0 15px; 
+    max-width: 1180px;
 }
 
 .about__info {
@@ -103,7 +98,7 @@ h3 {
     color: #121212;
 }
 
-.btn {
+.about__btn {
     margin-top: 30px;
     display: inline-block;
     padding: 20px 40px 20px 40px;
@@ -111,9 +106,17 @@ h3 {
     font-weight: 400;
     line-height: normal;
     border-radius: 5px;
-    text-decoration: none;
     background: #AD1818;
     color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.projects__box {
+    margin: 0 auto;
+    padding: 0 15px; 
+    max-width: 1180px;
 }
 
 .projects {
@@ -148,6 +151,7 @@ h3 {
 
 .btnCheckProjects {
     margin-top: 90px;
+    margin-bottom: 150px;
     display: block;
     width: 100%;
     height: 153px;
@@ -167,7 +171,7 @@ h3 {
 }
 
 .services {
-   margin-top: 34px;
+    margin-top: 34px;
 }
 
 .services .service {
@@ -176,4 +180,25 @@ h3 {
 
 .service__image {
     margin-bottom: 15px;
+    margin-left: 125px;
+}
+
+.final__image {
+    position: relative;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 717px;
+    background-image: url(../resources/forestfoto.png);
+    background-repeat: no-repeat;
+}
+
+.final__image-text {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    font-size: 30px;  
+    line-height: normal;
+    letter-spacing: -0.9px;
+    color: #FFF;
 }
