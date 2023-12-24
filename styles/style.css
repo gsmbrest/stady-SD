@@ -245,25 +245,3 @@ body {
     letter-spacing: -0.9px;
     color: #FFFFFF;
 }
-
-.final {
-    width: 1400px;
-    height: 717px;
-    position: relative;
-    box-sizing: border-box;
-    background-image: url('..//resources/forestfoto.png');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    display: inline-block;
-}
-
-.final__text {
-    position: absolute;
-    left: 125px;
-    bottom: 60px;
-    width: 443px;
-    font-size: 30px;
-    line-height: normal;
-    letter-spacing: -0.9px;
-    color: #FFF;
-}
