@@ -253,6 +253,8 @@ body {
     box-sizing: border-box;
     background-image: url('..//resources/forestfoto.png');
     background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
 }
 
 .final__text {
