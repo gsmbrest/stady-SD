@@ -4,8 +4,10 @@ body {
     background: #FFF;
 }
 
-.logo {
+header {
     margin-top: 30px;
+
+.logo {
     margin-right: 546.6px;
     display: inline-block;
 }
@@ -18,7 +20,6 @@ body {
 
 .nav {
     float: right;
-    margin-top: 30px;
     display: inline-block;
     vertical-align: top;
 }
@@ -219,7 +220,7 @@ body {
     color: #FFFFFF;
 }
 
-.services__box {
+.service__box {
     margin-bottom: 15px;
     height: 270px;
 }
