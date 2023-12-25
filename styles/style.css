@@ -17,6 +17,7 @@ body {
 }
 
 .nav {
+    float: right;
     margin-top: 30px;
     display: inline-block;
     vertical-align: top;
