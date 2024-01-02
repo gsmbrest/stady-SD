@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%;
@@ -20,7 +24,6 @@ header {
 }
 
 .nav {
-    float: right;
     display: inline-block;
     vertical-align: top;
 }
@@ -125,6 +128,7 @@ header {
     background: #AD1818;
     color: #FFFFFF;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .projects {
@@ -212,6 +216,7 @@ header {
 
 
 .services__title {
+    margin-bottom: 34px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -233,11 +238,7 @@ header {
 }
 
 .service__item {
-    margin-top: 60px;
-}
-
-.services__list li:first-child {
-    margin-top: 34px;
+    margin-bottom: 60px;
 }
 
 .service__title {
@@ -247,4 +248,144 @@ header {
     line-height: normal;
     letter-spacing: -0.9px;
     color: #FFFFFF;
+}
+
+.fullscreen__image {
+    height: 717px;
+    background-image: url('../resources/forestfoto.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fullscreen__box {
+    margin: 0 auto;
+    position: relative;
+}
+
+.fullscreen__text {
+    padding-top: 575px;
+    width: 443px;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    color: #FFF;
+}
+
+.contacts {
+    margin-top: 186px;
+    margin-bottom: 160px;
+}
+
+.contacts__title {
+    position: relative;
+    bottom: 32px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.contacts__title::before {
+    content: "";
+    position: absolute;
+    background-image: url('../resources/icon_phone.png');
+    left: -4px;
+    bottom: 37px;
+    width: 24px;
+    height: 24px;
+}
+
+.contacts__phone {
+   margin-bottom: 30px;
+   display: block;
+    bottom: 250px;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-decoration: none;
+    color: #121212;
+
+}
+
+.contacts__mail {
+    opacity: 0.50;
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    color: #121212;
+}
+
+.footer {
+    padding-bottom: 30px;
+    background: #121212;
+  }
+  
+  .footer__nav {
+    margin-top: 60px;
+    margin-left: 345px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .footer__nav li {
+    margin-right: 54px;
+    display: inline-block;
+  }
+
+  .footer li:first-child {
+    opacity: 0.5;
+    text-decoration: none;
+}
+  
+  .footer__nav-link {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+  }
+  
+  .footer__text {
+    display: block;
+    margin-top: 87px;
+    margin-left: 384px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    opacity: 0.5;
+    color: #FFF;
+  }
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #7d7688;
+    /* Цвет фона кнопки */
+    color: white;
+    /* Цвет текста */
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 18px;
+    transition: background-color 0.3s;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #4e5d4f;
+    /* Измененный цвет фона кнопки при наведении */
 }

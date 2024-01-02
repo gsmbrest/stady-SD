@@ -17,13 +17,13 @@
             <img class="logo" src="resources/LogoMetrica.png" alt="Лого Метрика">
             <nav class="nav">
                 <ul>
-                    <li><a class="nav__link" href="/">О НАС</a>
+                    <li><a class="nav__link" href="#about">О НАС</a>
                     </li>
-                    <li><a class="nav__link" href="/">ПРОЕКТЫ</a>
+                    <li><a class="nav__link" href="#projects">ПРОЕКТЫ</a>
                     </li>
-                    <li><a class="nav__link" href="/">УСЛУГИ</a>
+                    <li><a class="nav__link" href="#services">УСЛУГИ</a>
                     </li>
-                    <li><a class="nav__link" href="/">КОНТАКТЫ</a>
+                    <li><a class="nav__link" href="#contacts">КОНТАКТЫ</a>
                     </li>
                 </ul>
             </nav>
@@ -39,16 +39,16 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="container">
                 <h2 class="about__title">О НАС</h2>
                 <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации
                     интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим
                     конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-                <a class="about__buttton">Посмотреть услуги</a>
+                <a class="about__buttton" href="#services">Посмотреть услуги</a>
             </div>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <div class="container">
                 <h2 class="projects__title">ПРОЕКТЫ</h2>
                 <ul class="projects__list">
@@ -77,9 +77,9 @@
                 <a class="projects__link" href="/">Смотреть все проекты</a>
             </div>
         </section>
-        <section class="services">
+        <section id="services" class="services">
             <div class="container">
-                <h3 class="services__title">Услуги</h3>
+                <h2 class="services__title">Услуги</h2>
                 <ul class="services__list">
                     <li class="service__item">
                         <div class="service__box">
@@ -108,6 +108,40 @@
                 </ul>
             </div>
         </section>
+        <section class="fullscreen__image">
+            <div class="container">
+                <p class="fullscreen__text">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+            </div>
+        </section>
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__box">
+                    <p class="contacts__title">
+                        КОНТАКТЫ
+                    </p>
+                    <a class="contacts__phone" href="tel:+7935 8954535">+7 935 895-45-35
+                    </a>
+                    <a class="contacts__mail" href="mailto:">hello@mail.com
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a class="footer__nav-link" href="#about">О НАС</a></li>
+                        <li><a class="footer__nav-link" href="#projects">ПРОЕКТЫ</a></li>
+                        <li><a class="footer__nav-link" href="#services">УСЛУГИ</a></li>
+                        <li><a class="footer__nav-link" href="#contacts">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+            </div>
+        </footer>
     </main>
+    <div id="top"></div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Наверх</button>
+    <script src="/script.js"></script>
 
     <body>
