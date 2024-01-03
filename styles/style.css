@@ -255,6 +255,7 @@ header {
     background-image: url('../resources/forestfoto.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .fullscreen__box {
@@ -278,7 +279,7 @@ header {
 
 .contacts__title {
     position: relative;
-    bottom: 32px;
+    margin-bottom: 32px;
     font-size: 18px;
     font-style: normal;
     line-height: normal;
@@ -292,11 +293,9 @@ header {
     position: absolute;
     background-image: url('../resources/icon_phone.png');
     left: -4px;
-    bottom: 37px;
+    bottom: 30px;
     width: 24px;
     height: 24px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .contacts__phone {
