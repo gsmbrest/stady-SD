@@ -143,6 +143,11 @@ header {
     margin-top: 30px;
 }
 
+.project__box {
+  margin-bottom: 15px;
+  height: 450px;
+}
+
 .projects__image {
     margin-bottom: 15px;
     height: 450px;
@@ -296,6 +301,8 @@ header {
     bottom: 30px;
     width: 24px;
     height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contacts__phone {
